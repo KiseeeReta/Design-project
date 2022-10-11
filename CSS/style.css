@@ -1,0 +1,665 @@
+
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------Header------------------------------------------------*/
+.wrapper {
+	font-family: 'Nunito Sans', sans-serif;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	color: #FFFFFF;
+}
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 83px;
+	background-color: #131313;
+}
+.header__logo {
+	color: #E3B873;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 15px;
+	text-transform: uppercase;
+	align-items: center;
+}
+.header__menu {
+	display: flex;
+	align-items: center;
+}
+.menu__list {
+	display: flex;
+	margin-left: 95px;
+}
+.menu__item {
+	margin-right: 47px;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 15px;
+}
+.menu__item:last-child{
+	margin: 0 45px 0 20px;
+	text-decoration: underline;
+	color: #E3B873;
+}
+.menu__link {
+	color: #FFFFFF;
+}
+.menu__link1{
+	color: #E3B873;
+}
+.button {
+	padding: 13px 33px;
+	background: #E3B873;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+	border-radius: 2px;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-style: italic;
+}
+/*------------------------------------------Main Block1-------------------------------------------------*/
+._container{
+	max-width: 1240px;
+	margin: 0 auto;
+	box-sizing: content-box;
+}
+.main__block1 {
+	min-height: 707px;
+	background-image: url(../img/Block1.png);
+	background-size: 100% 100%;
+}
+.block1__title {
+	font-family: 'Yeseva One', cursive;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 53px;
+	text-transform: uppercase;
+	padding: 194px 0 0 34px;
+}
+.Rostov-on-Don{
+	color: #E3B873;
+}
+.block1__text {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 36px;
+	padding: 19px 0 0 34px;
+}
+.block1__button {
+	padding: 41px 0 0 34px;
+}
+.block1__button1 {
+	padding: 20px 42px;
+	background: #E3B873;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+	border-radius: 2px;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 15px;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #FFFFFF;
+}
+.block1__button2 {
+	padding: 20px 22px;
+	background-color: transparent;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 15px;
+	border: 1px solid #FFFFFF;
+	border-radius: 2px;
+	color: #FFFFFF;
+}
+/*-----------------------------------------------Main Block2-------------------------------------------*/
+.main__block2 {
+	background: #131313;
+}
+.block2__parts {
+	display: flex;
+}
+.block2__title {
+	font-family: 'Yeseva One';
+	padding: 176px 0 0 34px;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 37px;
+	letter-spacing: -0.07em;
+	text-transform: uppercase;
+	color: #E3B873;
+}
+.block2__title-text {
+	padding: 34px 0 0 34px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 27px;
+}
+.block2__subtitle-parts{
+	display: flex;
+	padding: 42px 0 0 34px;
+}
+.block2__subtitle-part1 .block2__subtitle-part2{
+	display: flex;
+	flex-direction: column;
+}
+.block2__subtitle-part2{
+	padding-left: 34px;
+}
+.subtitle-part2{
+	padding-top: 34px;
+}
+.subtitle-part3{
+	padding-top: 81px;
+}
+.block2__svg-img{
+	display: flex;
+}
+.block2__svg2, .block2__svg5{
+	padding-left: 30px;
+}
+.block2__svg3, .block2__svg4{
+	padding-left: 18px;
+}
+.subtitle-part5{
+	padding-top: 55px;
+}
+.block2__subtitle {
+	font-family: 'Yeseva One';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #E3B873;
+}
+.block2__subtitle-text {
+	padding-top: 9px;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 21px;
+}
+.block2__part2 {
+	padding: 107px 0 0 50px;
+}
+.block2__menu-list {
+	display: flex;
+	font-family: 'Yeseva One';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.3);
+}
+.block2__list{
+	display: flex;
+}
+.block2__menu-item {
+	padding-right: 60px;
+}
+.item__link{
+	color: rgba(255, 255, 255, 0.3);
+}
+.item__link1{
+	color: #E3B873;
+}
+.item__line{
+	padding-top: 7px;
+	width: 195px;
+	border-bottom: 1px solid #E3B873;
+}
+.block2__img {
+	padding-top: 45px;
+}
+.block2__bottom {
+	padding-top: 92px;
+}
+.block2__bottom-text{
+	font-family: 'Yeseva One';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.block2__bottom-img{
+	padding-top: 21px;
+	padding-bottom: 257px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.block2__bottom-img img:first-child{
+	padding-right: 8px;
+}
+.block2__bottom-img img:last-child{
+	padding-left: 8px;
+}
+/*---------------------------------------------Main Block3---------------------------------------------*/
+.block3__part {
+	margin-top: -230px;
+	background-image: url(../img/Block3p1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block3__img1 {
+	padding: 175px 366px;
+}
+.block3__img1 img {
+	cursor: pointer;
+}
+.block3__line {
+	padding-top: 30px;
+	width: 55px;
+	border-bottom: 2px solid #E3B873;
+	margin: 0 auto;
+}
+.block3__text {
+	padding-top: 34px;
+	margin: 0 auto;
+	max-width: 652px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 37px;
+	text-align: center;
+	color: #363636;
+}
+.block3__input-btn {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding-top: 92px;
+}
+.block3__input1, .block3__input2 {
+	border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+.block3__input2 {
+	margin-left: 58px;
+}
+.block3__legend {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 21px;
+	color: rgba(54, 54, 54, 0.5);
+}
+.block3__label {
+	width: 231px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 23px;
+	color: #363636;
+}
+.block3__label input {
+	padding-left: 5px;
+}
+.block3__button {
+	margin-left: 49px;
+	padding: 10px 75px;
+	background: #E3B873;
+	box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+	border-radius: 2px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 27px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+/*--------------------------------------Custom Checkbox-------------------------------------*/
+.block3__checkbox {
+	padding-top: 39px;
+	display: flex;
+	justify-content: center;
+}
+input[type="checkbox"] {
+	display: none;
+}
+.block3__checkbox-text::before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+	background-color: #E3B873;
+	border-radius: 1px;
+	margin-right: 9px;
+}
+input[type="checkbox"]:checked + .block3__checkbox-text::before {
+	content: "";
+	background-image: url(../img/galochka.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.block3__checkbox-text {
+	display: flex;
+	align-items: center;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 163.68%;
+	color: #181818;
+}
+/*-----------------------------------------------------------------------------------------*/
+.block3__center {
+	padding-top: 148px;
+}
+.block3__center-title{
+	font-family: 'Yeseva One';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #181818;
+}
+.block3__center-img {
+	padding-top: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.block3__menu-list {
+	margin-top: 31px;
+	display: flex;
+	justify-content: space-between;
+}
+.block3__list1-img, .block3__list1-img2, .block3__list1-img3 {
+	background-repeat: no-repeat;
+	min-width: 392px;
+	min-height: 421px;
+}
+.block3__list1-img {
+	background-image: url(../img/list1.jpg);
+}
+.block3__list1-img2 {
+	background-image: url(../img/list2.jpg);
+}
+.block3__list1-img3 {
+	background-image: url(../img/list3.jpg);
+}
+.block3__list1-content {
+	margin-top: -127px;
+	max-width: 330px;
+	min-height: 286px;
+	background: #FFFFFF;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+	margin-left: 31px;
+}
+.block3__list1-title {
+	font-family: 'Yeseva One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	color: #363636;
+	padding-top: 25px;
+	padding-left: 34px;
+}
+.block3__list1-item {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 27px;
+	color: #959595;
+	padding-top: 13px;
+	padding-left: 34px;
+}
+.block3__list1-btn {
+	margin: -27px 0 0 31px;
+	padding: 17px 21px;
+	font-family: 'Yeseva One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+	background: #E3B873;
+	box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+/*---------------------------------------------Main Block4---------------------------------------------*/
+.main__block4 {
+	margin-top: 124px;
+	margin-left: 204px;
+	background-image: url(../img/block4img1.png);
+	background-repeat: no-repeat;
+	min-height: 678px;
+}
+.block4__body {
+	margin-top: 124px;
+}
+.block4__parts {
+	display: flex;
+}
+.block4__part1 {
+	padding: 65px 0 0 10px;
+}
+.block4__style {
+	display: flex;
+	align-items: center;
+}
+.block4__style:not(:first-child) {
+	padding-top: 86px;
+}
+.block4__fon-style {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 57px;
+	height: 57px;
+	background: #E3B873;
+	border: 8px solid #FFFFFF;
+	border-radius: 50%;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+	font-family: 'Yeseva One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+}
+.block4__text1, .block4__text2, .block4__text3, .block4__text4 {
+	margin-left: 17px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #363636;
+}
+.block4__part2 {
+	margin: 65px 0 0 240px;
+
+}
+.block4__request {
+	min-width: 506px;
+	min-height: 509px;
+	background: #131313;
+	box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
+.block4__input-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block4__request-logo {
+	padding: 28px 0 39px 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+}
+.block4__legend {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 21px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.block4__label {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 23px;
+}
+.block4__label input {
+	background-color: #131313;
+	color: #FFFFFF;
+	width: 282px;
+	padding-left: 5px;
+}
+.block4__line {
+	margin-top: 3px;
+	width: 408px;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.15);
+}
+.block4__input:nth-child(2) {
+	padding: 50px 0 50px 0;
+}
+/*------------------------------------------------------------------------------------------------------*/
+.block4__checkbox {
+	padding: 16px 0 0 49px;
+}
+input[type="checkbox"] {
+	display: none;
+}
+.block4__checkbox-text::before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+	background-color: #E3B873;
+	border-radius: 1px;
+	margin-right: 9px;
+}
+input[type="checkbox"]:checked + .block4__checkbox-text::before {
+	content: "";
+	background-image: url(../img/galochka.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.block4__checkbox-text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 163.68%;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+.block4__button {
+	margin-left: 244px;
+	padding: 19px 40px;
+	background: #E3B873;
+	box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+	border-radius: 2px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.block4__pig {
+	margin: 30px 0 0 13px;
+	display: flex;
+}
+.block4__pigText {
+	padding: 22px 0 0 25px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #E3B873;
+	text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+/*----------------------------------------Main block5------------------------------------------*/
+.main__block5 {
+	margin-top: 222px;
+	max-height: 864px;
+	background-image: url(../img/block5.png);
+	background-size: 100% 100%;
+}
+.block5__parts {
+	display: flex;
+}
+.block5__part1 {
+	padding-top: 137px;
+}
+.block5__title {
+	min-width: 280px;
+	font-family: 'Yeseva One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 37px;
+	text-transform: uppercase;
+	color: #E3B873;
+}
+.block5__subtitle {
+	padding-top: 38px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: #E3B873;
+}
+.block5__line {
+	margin-top: 3px;
+	height: 1px;
+	width: 146px;
+	background: #E3B873;
+}
+.block5__list-item {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+}
+.block5__list-item li {
+	padding-top: 27px;
+}
+.block5__part2 img{
+	display: block;
+	margin-top: -41px;
+	padding-left: 220px;
+}
+.block5__img2 img{
+	margin-top: 39px;
+}
+.block5__part3 img{
+	display: block;
+	margin-top: -112px;
+	padding-left: 43px;
+}
+.block5__img4 img{
+	margin-top: 37px;
+}
+/*-------------------------------------------Main block6------------------------------------------*/
+.block6__body {
+	padding-top: 110px;
+}
