@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:regular,italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Yeseva+One:regular" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
     <title>Design Project</title>
 </head>
 <body>
@@ -132,12 +133,14 @@
                         </div>
                         <div class="block3__input-btn">
                             <div class="block3__input1">
-                                <legend class="block3__legend">Name</legend>
-                                <label class="block3__label">What is your name:<input type="text" name="name"></label>
+                                <form action="#">
+                                    <legend class="block3__legend">Name</legend>
+                                    <label class="block3__label"><input type="text" name="name" placeholder="What is your name:"></label>
+                                </form>
                             </div>
                             <div class="block3__input2">
                                 <legend class="block3__legend">Phone</legend>
-                                <label class="block3__label">Your phone number:<input type="text" name="name"></label>
+                                <label class="block3__label"><input type="text" name="name" placeholder="Your phone number:"></label>
                             </div>
                             <form action="#">
                                 <button class="block3__button" type="submit" name="Submit">Submit</button>
@@ -247,29 +250,31 @@
                                     <div class="block4__input-block">
                                         <div class="block4__input">
                                             <legend class="block4__legend">Name</legend>
-                                            <label class="block4__label">What is your name:<input type="text" name="name"></label>
+                                            <label class="block4__label"><input type="text" name="name" placeholder="What is your name:"></label>
                                             <div class="block4__line"></div>
                                         </div>
                                         <div class="block4__input">
                                             <legend class="block4__legend">Phone</legend>
-                                            <label class="block4__label">Your phone number:<input type="text" name="phone"></label>
+                                            <label class="block4__label"><input type="text" name="phone" placeholder="Your phone number:"></label>
                                             <div class="block4__line"></div>
                                         </div>
                                         <div class="block4__input">
                                             <legend class="block4__legend">Email</legend>
-                                            <label class="block4__label">Your email:<input type="text" name="phone"></label>
+                                            <label class="block4__label"><input type="text" name="phone" placeholder="Your email:"></label>
                                             <div class="block4__line"></div>
                                         </div>
                                     </div>
                                     <div class="block4__checkbox">
                                         <form action="#">
                                             <input type="checkbox" id="custom2" name="i agree" checked>
-                                            <label class="block4__checkbox-text" for="custom2">I agree to the processing of personal<br> data</label>
+                                            <label class="block__checkbox-text" for="custom2">I agree to the processing of personal data</label>
                                         </form>
                                     </div>
-                                    <form action="#">
-                                        <button class="block4__button" type="submit" name="Submit">Call the measurer</button>
-                                    </form>
+                                    <div class="block4__button-call">
+                                        <form action="#">
+                                            <button class="block4__button" type="submit" name="Submit">Call the measurer</button>
+                                        </form>
+                                    </div>
                                 </div>
                                 <div class="block4__pig">
                                     <div class="block4__moneyPig">
@@ -288,21 +293,20 @@
                     <div class="block5__body">
                         <div class="block5__parts">
                             <div class="block5__part1">
-                                <div class="block5__title">We realize your<br>
-                                    wildest fantasies</div>
-                                <div class="block5__subtitle">American classic</div>
+                                <div class="block5__title">We realize your wildest fantasies</div>
+                                <div class="block5__subtitle"><a href="" class="block5__subtitle-link">American classic</a></div>
                                 <div class="block5__line"></div>
                                 <ul class="block5__list-item">
-                                    <li>Empire</li>
-                                    <li>Classical</li>
-                                    <li>Loft</li>
-                                    <li>Minimalism</li>
-                                    <li>Provence</li>
-                                    <li>Romanticism</li>
-                                    <li>Scandinavian style</li>
-                                    <li>Mediterranean style</li>
-                                    <li>High tech</li>
-                                    <li>Eclecticism</li>
+                                    <li><a href="" class="block5__item-link">Empire</a></li>
+                                    <li><a href="" class="block5__item-link">Classical</a></li>
+                                    <li><a href="" class="block5__item-link">Loft</a></li>
+                                    <li><a href="" class="block5__item-link">Minimalism</a></li>
+                                    <li><a href="" class="block5__item-link">Provence</a></li>
+                                    <li><a href="" class="block5__item-link">Romanticism</a></li>
+                                    <li><a href="" class="block5__item-link">Scandinavian style</a></li>
+                                    <li><a href="" class="block5__item-link">Mediterranean style</a></li>
+                                    <li><a href="" class="block5__item-link">High tech</a></li>
+                                    <li><a href="" class="block5__item-link">Eclecticism</a></li>
                                 </ul>
                             </div>
                             <div class="block5__part2">
@@ -328,11 +332,164 @@
             <div class="main__block6">
                 <div class="block6__container _container">
                     <div class="block6__body">
-                        
+                        <div class="block6__center">
+                            <div class="block6__center-title">our clients</div>
+                            <div class="block6__center-img">
+                                <img src="./img/stroke.svg" alt="stroke">
+                                <img src="./img/handshake.svg" alt="handshake">
+                                <img src="./img/stroke.svg" alt="stroke">
+                            </div>
+                            <div class="block6__center-text">80% of our customers recommend us to their<br>
+                                friends and family.</div>
+                        </div>
+                        <div class="block6__menu-list">
+                            <div class="block6__list">
+                                <div class="block6__list1-shapka">
+                                    <div class="block6__list-img">
+                                        <img src="./img/block6__list-img1.png" alt="photo1">
+                                    </div>
+                                    <div class="block6__list-title">Fedosova Maria<br>Konstantinovna
+                                    </div>
+                                </div>
+                                <div class="block6__list-text">
+                                    I want to thank the guys for their work. We put your shower part in repair. 
+                                    I am very grateful that I referred to the repair as to my own. Great thanks 
+                                    I express the project to Georgia for its professionalism and<br> approach.<br>
+                                    The repair process was turned out in terms, faster than anticipated. 
+                                    Team mobile and professional. Works performed qualitatively without comments. 
+                                    Quality satisfied. Prices democratic. I recommend these masters.
+                                </div>
+                            </div>
+                            <div class="block6__list">
+                                <div class="block6__list1-shapka">
+                                    <div class="block6__list-img">
+                                        <img src="./img/block6__list-img2.png" alt="photo2">
+                                    </div>
+                                    <div class="block6__list-title">Afanasyev Sergey<br> Alexandrovich
+                                    </div>
+                                </div>
+                                <div class="block6__list-text">
+                                    I want to thank the guys for their work. We put your shower part in repair. 
+                                    I am very grateful that I referred to the repair as to my own. Great thanks 
+                                    I express the project to Georgia for its professionalism and<br> approach.<br>
+                                    The repair process was turned out in terms, faster than anticipated. 
+                                    Team mobile and professional. Works performed qualitatively without comments. 
+                                    Quality satisfied. Prices democratic. I recommend these masters.
+                                </div>
+                            </div>
+                            <div class="block6__list">
+                                <div class="block6__list1-shapka">
+                                    <div class="block6__list-img">
+                                        <img src="./img/block6__list-img3.png" alt="photo3">
+                                    </div>
+                                    <div class="block6__list-title">Kiriev Egor<br> Leonidovich
+                                    </div>
+                                </div>
+                                <div class="block6__list-text">
+                                    I want to thank the guys for their work. We put your shower part in repair. 
+                                    I am very grateful that I referred to the repair as to my own. Great thanks 
+                                    I express the project to Georgia for its professionalism and<br> approach.<br>
+                                    The repair process was turned out in terms, faster than anticipated. 
+                                    Team mobile and professional. Works performed qualitatively without comments. 
+                                    Quality satisfied. Prices democratic. I recommend these masters.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block6__list-down">
+                            <ul class="list__down-item">
+                                <li class="list__down-img1"><img src="./img/Group 2.svg" alt="size"></li>
+                                <li class="list__down-text1">40 m2</li>
+                                <li class="list__down-img2"><img src="./img/vert-line.svg" alt="line"></li>
+                                <li class="list__down-img3"><img src="./img/Group1.svg" alt="calendar"></li>
+                                <li class="list__down-text2">48 DAYS</li>
+                            </ul>
+                            <ul class="list__down-item">
+                                <li class="list__down-img1"><img src="./img/Group 2.svg" alt="size"></li>
+                                <li class="list__down-text1">90 m2</li>
+                                <li class="list__down-img2"><img src="./img/vert-line.svg" alt="line"></li>
+                                <li class="list__down-img3"><img src="./img/Group1.svg" alt="calendar"></li>
+                                <li class="list__down-text2">128 DAYS</li>
+                            </ul>
+                            <ul class="list__down-item">
+                                <li class="list__down-img1"><img src="./img/Group 2.svg" alt="size"></li>
+                                <li class="list__down-text1">56 m2</li>
+                                <li class="list__down-img2"><img src="./img/vert-line.svg" alt="line"></li>
+                                <li class="list__down-img3"><img src="./img/Group1.svg" alt="calendar"></li>
+                                <li class="list__down-text2">86 DAYS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__block7">
+                <div class="block7__container _container">
+                    <div class="block7__body">
+                        <div class="block7__blockUp-container">
+                            <div class="block7__blockUp-title">have any questions?</div>
+                                <div class="block7__input-block1">
+                                    <div class="block7__input">
+                                        <legend class="block7__legend">Name</legend>
+                                        <label class="block7__label"><input type="text" name="phone" placeholder="What is your name:"></label>
+                                        <div class="block7__line"></div>
+                                    </div>
+                                    <div class="block7__input">
+                                        <legend class="block7__legend">Phone</legend>
+                                        <label class="block7__label"><input type="text" name="phone" placeholder="Your phone number:"></label>
+                                        <div class="block7__line"></div>
+                                    </div>
+                                </div>
+                                <div class="block7__input-block2">
+                                    <div class="block7__input">
+                                        <legend class="block7__legend">Question</legend>
+                                        <label class="block7__label"><input type="text" name="phone" placeholder="I want to know:"></label>
+                                    <div class="block7__line-big"></div>                                    
+                                </div>
+                            </div>
+                            <div class="block7__checkbox">
+                                <form action="#">
+                                    <input type="checkbox" id="custom3" name="i agree" checked>
+                                    <label class="block__checkbox-text" for="custom3">I agree to the processing of personal data</label>
+                                </form>
+                            </div>
+                            <div class="block7__button-down">
+                                <form action="#">
+                                    <button class="block7__button" type="submit" name="Submit">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block7__down-title">Rostov-on-Don, Nansen St., 239 Shopping Center
+                                                    Decorum Tel +7 (928) 768 32 29
+                    </div>
+                    <div class="block7__down-img">
+                        <img src="./img/convert.png" alt="convert">
+                        <img src="./img/insta.png" alt="insta">
+                    </div>
+                    <div class="block7__map-img">
+                        <img src="./img/map.png" alt="map">
                     </div>
                 </div>
             </div>
         </main>
+        <footer class="footer">
+            <a href="" class="footer__logo">IC "Repair Design Project"</a>
+            <nav class="footer__menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="" class="menu__link1">HOME</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">PROJECTS</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">MEASUREMENT</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">TEAM</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">REVIEWS</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">CONTACTS</a></li>
+                    <li class="menu__item"><a href="" class="menu__link1">+7 (928) 768-32-39</a></li>
+                </ul>
+                <form action="#">
+                    <div class="menu__button">
+                            <button type="submit" name="Request a call" class="button">Request a call</button>
+                    </div>
+                </form>
+            </nav>
+        </footer>
     </div>
 </body>
 </html>
