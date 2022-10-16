@@ -37,7 +37,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 	font-size: 11px;
 	line-height: 15px;
 	text-transform: uppercase;
-	align-items: center;
 	padding: 36px 0;
 }
 .header__menu {
@@ -159,6 +158,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 27px;
+}
+.block2__small-img {
+	display: none;
 }
 .block2__subtitle-parts{
 	display: flex;
@@ -294,11 +296,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .block3__input-btn {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	margin: 0 auto;
 	padding-top: 92px;
 }
 .block3__input1, .block3__input2 {
 	border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+	min-width: 231px;
 }
 .block3__input2 {
 	margin-left: 58px;
@@ -515,7 +519,6 @@ input[type="checkbox"]:checked + .block3__checkbox-text::before {
 .block4__part2 {
 	margin-top: 65px;
 	padding-left: 240px;
-
 }
 .block4__request {
 	min-width: 506px;
@@ -858,7 +861,6 @@ input[type="checkbox"]:checked + .block__checkbox-text::before {
 	width: 231px;
 	height: 1px;
 	background: rgba(255, 255, 255, 0.15);
-	transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .block7__input-block2 {
 	padding-top: 49px;
@@ -868,7 +870,6 @@ input[type="checkbox"]:checked + .block__checkbox-text::before {
 	width: 517px;
 	height: 1px;
 	background: rgba(255, 255, 255, 0.15);
-	transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .block7__checkbox {
 	padding-top: 47px;
@@ -892,6 +893,9 @@ input[type="checkbox"]:checked + .block__checkbox-text::before {
 }
 .block7__button:hover {
 	box-shadow: 0 0 30px #E3B873;
+}
+.min-map {
+	display: none;
 }
 .block7__down-title {
 	position: relative;
